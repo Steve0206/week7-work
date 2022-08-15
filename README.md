@@ -1,4 +1,4 @@
-# 網頁切版直播班 Gulp 範例 - 加入 Bootstrap 版本
+# 網頁切版直播班 Gulp 範例
 
 > 使用該專案 Gulp 時，就可以不用使用其他編譯工具編譯 SCSS 或是 JavaScript 囉。
 
@@ -16,7 +16,7 @@
 
 ## 說明
 
-該分支專案預設載入 Bootstrap5 與 jQuery 等。
+除了 Boostrap CSS 與 Boostrap JavaScript 需要掛 CDN 之外，本身已經內建打包 jQuery 3.5.1。
 
 若有需要調整相關路徑參數可在 `envOptions.js` 中調整，但建議不要隨意調整導致 Gulp 無法正常運行。
 

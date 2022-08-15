@@ -1,0 +1,28 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Roboto,sans-serif;
+    line-height: 1.5;
+    font-size: 24px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
